@@ -22,3 +22,8 @@ Prerequisites: JDK 11, update Intellij to the most recent version.
    | |_| | |_| |   <  __/
    |____/ \__,_|_|\_\___|
    ```
+<<<<<<< HEAD
+4. Duke is released under an MIT license.
+=======
+4. Duke is part of https://se-education.org
+>>>>>>> 8469194969b7fb8dd1f726e12cf9097fc39c74a8
