@@ -1,10 +1,46 @@
+import duke.command.Command;
+import duke.DukeException;
+import duke.Storage;
+import duke.task.TaskList;
+import duke.Ui.UserInterface;
+
+import javax.swing.text.html.parser.Parser;
+
 public class Duke {
-    public static void main(String[] args) {
-        String logo = " ____        _        \n"
-                + "|  _ \\ _   _| | _____ \n"
-                + "| | | | | | | |/ / _ \\\n"
-                + "| |_| | |_| |   <  __/\n"
-                + "|____/ \\__,_|_|\\_\\___|\n";
-        System.out.println("Hello from\n" + logo);
+    UserInterface ui;
+    TaskList taskList;
+    Storage storage;
+
+    public Duke() {
+        this.ui = new UserInterface();
+        this.taskList = new TaskList();
     }
+
+    public void run() {
+        ui.logo();
+        ui.showWelcomeMessage();
+    }
+
+    public void userCommand() {
+        boolean isExit = false;
+        while (!isExit) {
+            try {
+                String fullCommand = ui.getInput();
+                ui.showLine(); // show the divider line ("_______")
+                Command c = Parser.parse(fullCommand);
+                c.execute(, ui, storage);
+                isExit = c.isExit();
+            } catch (DukeException e) {
+                ui.showError(e.getMessage());
+            } finally {
+                ui.showLine();
+            }
+        }
+    }
+    public static void main(String[] args) {
+        Duke duke = new Duke();
+        duke.run();
+
+    }
+
 }
