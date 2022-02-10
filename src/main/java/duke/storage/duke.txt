@@ -1,0 +1,15 @@
+T | 0 | read book | 1
+D | 0 | return book  | 2021-10-24 | 22:00
+D | 0 | return book  | 2021-10-24 | 22:00
+E | 0 | project meeting  | 2021-10-24 | 14:00 | 16:00
+D | 0 | return book  | 2021-11-05 | 22:00
+E | 0 | project meeting  | 2022-07-30 | 14:00 | 16:00
+E | 0 | new year  | 2022-02-02 | 00:00 | 12:00
+D | 0 | return book  | 2020-10-29 | 03:00
+D | 0 | return book  | 2021-12-25 | 16:00
+T | 0 | eat | 0
+E | 0 | Finish Homework  | 2021-12-25 | 16:00 | 18:00
+E | 0 | new year  | 2022-02-02 | 00:00 | 12:00
+T | 1 | read book | 1
+T | 1 | study book | 0
+E | 0 | meeting  | 2021-12-25 | 00:00 | 15:00

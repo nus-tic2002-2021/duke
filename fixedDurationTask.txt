@@ -1,0 +1,4 @@
+read sales report | 2
+read book | 1
+do homework | 4
+submit claims | 1

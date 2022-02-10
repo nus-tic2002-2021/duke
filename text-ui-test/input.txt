@@ -1,0 +1,25 @@
+to do read book
+deadline return book
+deadline return book /by 2021-10-24 10PM
+deadline return book /by 2021/10/24 10PM
+event project meeting
+event project meeting /at 2021-10-24 2-4PM
+event project meeting /at 2021/10/24 2PM-4PM
+to do join sports club
+to do borrow book
+list
+deadline borrow book /by 2021/11/5 11AM
+deadline read book /by 2021/11/5 3PM
+deadline return book /by 2021/11/5 10PM
+event project meeting /at 2021/11/5 2PM-4PM
+event family dinner /at 2021/11/5 6PM-9PM
+event new year /at 2022/2/2 0AM-12AM
+save
+list
+done 1
+done 2
+list
+done project meeting
+done 3
+done 5
+done 6
